@@ -1,6 +1,6 @@
-const pages = require("./data/pages.json");
-const skills = require("./data/skills.json");
-const info = require("./data/info.json");
+const pages = require("./data/pages");
+const skills = require("./data/skills");
+const info = require("./data/info");
 
 module.exports = {
   pages,
