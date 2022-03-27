@@ -1,19 +1,11 @@
-const carrito = require("./data/carrito");
-const cursos = require("./data/cursos");
-const especialidades = require("./data/especialidades");
-const posts = require("./data/posts");
-const signup = require("./data/signup");
-const profesores = require("./data/profesores");
-const temario = require("./data/temario");
+const pages = require("./data/pages.json");
+const skills = require("./data/skills.json");
+const info = require("./data/info.json");
 
 module.exports = {
-  carrito,
-  cursos,
-  especialidades,
-  posts,
-  signup,
-  profesores,
-  temario,
+  pages,
+  skills,
+  info,
 }
 
 
