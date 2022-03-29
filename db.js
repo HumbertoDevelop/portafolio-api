@@ -1,13 +1,12 @@
-const pages = require("./data/pages");
+/** @format */
+
 const skills = require("./data/skills");
 const info = require("./data/info");
 
 module.exports = {
-  pages,
-  skills,
-  info,
-}
-
+	skills,
+	info,
+};
 
 // const items = require("./data/items");
 
@@ -16,8 +15,6 @@ module.exports = {
 //   var tags = items.map((i) => i.tags);
 //   tags = [].concat.apply([], tags);
 //   tags = [...new Set(tags)];
-
-
 
 //   var brands = items.map((i) => i.manufacturer);
 //   brands = [...new Set(brands)];
